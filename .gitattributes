@@ -2,11 +2,11 @@
  * text=auto
 
  # Explicitly declare text files to be normalized
- *.c text
- *.h text
-
- # Declare files that should always have CRLF line endings
- *.sln text eol=crlf
+ *.md text
+ *.php text
+ *.py text
+ *.sh text eol=lf
+ *.xml text
 
  # Denote all binary files
  *.png binary
